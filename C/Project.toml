@@ -1,0 +1,16 @@
+name = "C"
+uuid = "1019d3d7-cdce-4701-b668-006016fa514c"
+version = "0.1.0"
+authors = ["Cas Bex <cas.bex@kuleuven.be>"]
+
+[deps]
+B = "ec901540-a994-45a8-81ad-199284abb55d"
+
+[weakdeps]
+A = "a1d3cd84-5ec7-484f-9a52-0faa59264042"
+
+[sources]
+B = {path = "../B"}
+
+[extensions]
+AExt = "A"
